@@ -8,6 +8,6 @@ namespace R5T.Smyni
     /// </summary>
     public interface IVisualStudioSolutionFileOperator
     {
-        void CreateNewSolutionFile(string solutionDirectoryPath, string solutionName);
+        string CreateSolutionFile(string solutionDirectoryPath, string solutionName);
     }
 }
