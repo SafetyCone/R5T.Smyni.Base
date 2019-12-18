@@ -9,5 +9,7 @@ namespace R5T.Smyni
     public interface IVisualStudioSolutionFileOperator
     {
         string CreateSolutionFile(string solutionDirectoryPath, string solutionName);
+
+        void AddProjectFileToSolutionFile(string solutionFilePath, string projectFilePath);
     }
 }
